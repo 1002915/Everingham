@@ -11,127 +11,225 @@
    	 	<link rel="stylesheet" href="css/normalize.css">
   		<link rel="stylesheet" href="css/styles.css">
   		<script src="js/jquery-3.0.0.min.js"></script>
+  		<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
   		<link rel="icon" type="image/png" href="img/favicon.png">
  </head>
 
- <body><div class="mobilenav">
-  <a href="index.html"><li>HOME</li></a>
-  <a href="index.html"><li>PRACTICE AREAS</li></a>
-  <a href="index.html"><li>WORK WITH US</li></a>
-  <a href="index.html"><li>ABOUT</li></a>
-  <a href="index.html"><li>CONTACT</li></a>
+<body>
+<!-- MOBILE NAVIGATION -->
+<div class="mobilenav">
+	<a href="index.html"><li>HOME</li></a>
+  	<a href="#areasOfLaw"><li>PRACTICE AREAS</li></a>
+  	<a href="#contact"><li>WORK WITH US</li></a>
+  	<a href="#aboutUs"><li>ABOUT</li></a>
+  	<a href="#contact"><li>CONTACT</li></a>
 </div>
 
 <a href="javascript:void(0)" class="ham">
-  <div class="hamburger">
-    <div class="menui top-menu"></div>
-    <div class="menui mid-menu"></div>
-    <div class="menui bottom-menu"></div>
-  </div>
+	<div class="hamburger">
+    	<div class="menui top-menu"></div>
+    	<div class="menui mid-menu"></div>
+    	<div class="menui bottom-menu"></div>
+  	</div>
 </a>
- 	<div class="frame feature"> 			 	
- 		<div class="navigation">
-			<nav>
-				<ul class="left">
-					<a href="index.html"><li>HOME</li></a>
-					<a href="index.html"><li>PRACTICE AREAS</li></a>
-					<a href="index.html"><li>WORK WITH US</li></a>
-					<a href="index.html"><li>ABOUT</li></a>
-					<a href="index.html"><li>CONTACT</li></a>
-				</ul>
-			</nav>
-		</div>
- 		<div class="innerContainer">
- 			<div class="tagline"><h1>PERSONAL INJURY LAWYERS CABOOLTURE &amp; BRISBANE</h1></div>
- 			<div class="singleLogo"></div>
- 			<div class="logoWords"></div>
- 			<div class="logo"></div>
- 		</div>
- 	</div>
-
- <div class="frame darkframe">
+<!-- NAVIGATION / BEGINNING OF HEADER -->
+<div class="frame feature"> 			 	
+ 	<div class="navigation">
+		<nav>
+			<ul class="left">
+				<a href="#areasOfLaw"><li>PRACTICE AREAS</li></a>
+				<a href="#contact"><li>WORK WITH US</li></a>
+				<a href="#aboutUs"><li>ABOUT</li></a>
+				<a href="#contact"><li>CONTACT</li></a>
+			</ul>
+		</nav>
+	</div>
+<!-- LOGO'S -->
  	<div class="innerContainer">
-
+ 		<div id="tagLine" class="tagline"><h1>PERSONAL INJURY LAWYERS CABOOLTURE &amp; BRISBANE</h1></div>
+ 		<div class="singleLogo"></div>
+ 		<div class="logoWords"></div>
+ 		<div class="logo"></div>
+ 	</div>
+</div>
+<!-- ABOUT US SECTION -->
+<div id="aboutUs" class="frame darkframe">
+ 	<div class="innerContainer">
+		<a href="#aboutUs"><H1 class="white">ABOUT US</H1></a>
  			<div class="hold">
- 			<p class="white left">Everingham Lawyers Personal Injuries Team is based in our Caboolture office, however are available for consultations in Brisbane.<br><BR>
- 			Everingham Lawyers can assist you, if you have:<BR><BR>
- 			<ul>
- 				<li>Suffered an injury at work or in a public place</li>
- 				<li>Suffered an injury in a car accident</li>
- 				<li>Experienced Medical Negligence</li>
- 				<li>Experienced Professional Negligence.</li>
- 			</ul></p>
- 		</div>
- 			<a href="#contact" class="buttons "><button>Contact Us</button></a>
- 		</div>
+ 				<p class="white left">Everingham Lawyers Personal Injuries Team is based in our Caboolture office, however are available for consultations in Brisbane.<br><BR>
+ 				
+ 				Everingham Lawyers can assist you, if you have:<BR><BR>
+ 				<ul>
+ 					<li>Suffered an injury at work or in a public place</li>
+ 					<li>Suffered an injury in a car accident</li>
+ 					<li>Experienced Medical Negligence</li>
+ 					<li>Experienced Professional Negligence.</li>
+ 				</ul></p>
+ 			</div>
  	</div>
- </div>
-
-<div class="frame areas">
+</div>
+<!-- AREAS OF LAW SECTION -->
+<div id="areasOfLaw" class="frame areas">
 	<div class="innerContainer"> 
-		<H1>AREAS OF LAW</H1>
-		<div class="quarterContainer">
-			<div class="quarter"><img class="icon" src="img/family.svg">FAMILY LAW, WILLS &amp; ESTATES</div>
-			<div class="quarter"><img class="icon" src="img/house.svg">PROPERTY &amp; CONVEYANCING</div>
-			<div class="quarter"><img class="icon" src="img/shopping.svg">COMMERCIAL, LITIGATION &amp; MEDIATION</div>
-			<div class="quarter"><img class="icon" src="img/contract.svg">PLANNING &amp; ENVIRONMENT</div>
-		</div>
+		<a href="#areasOfLaw"><H1>AREAS OF LAW</H1></a>
+			<div class="quarterContainer">
+				<div class="quarter familyInfo"><img class="icon" src="img/family.svg">FAMILY LAW, WILLS &amp; ESTATES</div>
+				<div class="quarter propertyInfo"><img class="icon" src="img/house.svg">PROPERTY &amp; CONVEYANCING</div>
+				<div class="quarter commercialInfo"><img class="icon" src="img/shopping.svg">COMMERCIAL, LITIGATION &amp; MEDIATION</div>
+				<div class="quarter planningInfo"><img class="icon" src="img/contract.svg">PLANNING &amp; ENVIRONMENT</div>
+			</div>
+			<div id="property">
+				<p>Are you buying or selling a house or vacant land. &nbsp; We can assist you with:</p>
+					<ul>
+					    <li>Contract review</li>
+					    <li>Liaise with other side regarding extensions of time</li>
+					    <li>Preparation of contracts</li>
+					    <li>Assist in the preparation and lodgement of any Application for Foreign Investment Review Board Approval</li>
+					    <li>Advise of your obligations and time restraints in line with your contract</li>
+					    <li>Searches</li>
+					    <li>Liaise with your financier / mortgagee to ensure they are ready for settlement.</li>
+					</ul>
+			</div>
+
+			<div id="family" class="familyClose"> 
+				<p>Do you need help with:</p>
+					<ul>
+					    <li>Separation</li>
+					    <li>Divorce</li>
+					    <li>Children&#39;s arrangements (Child Custody and Child Support / Maintenance)</li>
+					    <li>Property Settlement</li>
+					    <li>De Facto Relationship matters</li>
+					    <li>Domestic Violence Matters and Australian Family Law</li>
+					    <li>Apprehended Violence Orders (AVOs)</li>
+					    <li>Location Orders</li>
+					    <li>Binding Financial Agreements (Cohabitation / Prenuptial Agreements)</li>
+					    <li>Name Change</li>
+					    <li>Recovery Application</li>
+					    <li>Spousal Maintenance</li>
+					    <li>Financial Agreements</li>
+					    <li>Grandparent&#39;s rights.</li>
+					</ul>
+			</div>
+
+			<div id="commercial">
+				<p>Do you need help with:</p>
+					<ul>
+					    <li>Leasing &ndash; acting for both the landlord and tenant in respect of retail office and industrial leases</li>
+					    <li>Sale and purchases of businesses through both assets and shares of the business</li>
+					    <li>Acting for Property Trusts</li>
+					    <li>Liquor Licencing</li>
+					    <li>Stamp Duty</li>
+					    <li>Franchising</li>
+					    <li>Shareholder Agreements</li>
+					    <li>Share Sale Agreements</li>
+					    <li>Partnerships</li>
+					    <li>Trusts</li>
+					</ul>
+			</div>
+
+			<div id="planning">
+				<p>Paul Everingham and Julia Wallace have been assisting clients plan for the future by drafting Wills including tax effective Wills Incorporating Testamentary Trusts and advising clients in relation to issues such as:</p>
+					<ul>
+					    <li>Protective Trusts for incapacitated beneficiaries</li>
+					    <li>Guardianship clauses for minor children</li>
+					    <li>Education and Maintenance of minor children</li>
+					    <li>Provisions for children from previous marriage including mutual Wills</li>
+					    <li>Will challenges</li>
+					    <li>The role of the Executor and Estate Administrator.</li>
+					</ul>
+			</div>
 	</div>
 </div>
-
-<div class="frame areas dark"> 
+<!--MEET OUR TEAM -->
+<div id="meetOurTeam" class="frame areas dark"> 
  	<div class="innerContainer">
-		<H1 class="white">MEET OUR TEAM</H1>
+		<a href="#meetOurTeam"><H1 class="white">MEET OUR TEAM</H1></a>
 		<div class="quarterContainer">
-			<div class="quarter white"><img class="icon portrait" src="img/portrait1.png">SUSAN LEWIS</div>
-			<div class="quarter white"><img class="icon portrait" src="img/portrait2.png">JULIA WALLIS</div>
-			<div class="quarter white"><img class="icon portrait" src="img/portrait3.png">MELISSA SINGLETON</div>
-			<div class="quarter white"><img class="icon portrait" src="img/portrait4.png">MICHELLE DAVIES</div>
+			<div class="quarter white lewis"><img class="icon portrait" src="img/portrait1.png">Susan Lewis</div>
+			<div class="quarter white wallace"><img class="icon portrait" src="img/portrait2.png">Julia Wallace</div>
+			<div class="quarter white singleton"><img class="icon portrait" src="img/portrait3.png">Melissa Singleton</div>
+			<div class="quarter white davies"><img class="icon portrait" src="img/portrait4.png">Michelle Davies</div>
 		</div>
+		<div id="lewisInfo">
+			<h4>Susan Lewis</h4>
+			<p>email: susan@everinghamlawyers.com.au</p>
+			<p>Current Position: Solicitor</p>
+			<p>Areas of Law: Personal Injuries</p>
+			<p>Professional Qualifications: Solicitor of the Supreme Court of Queensland</p>
+		</div>
+		<div id="wallaceInfo">
+			<h4>Julia Wallace</h4>
+			<p>email: julia@everinghamlawyers.com.au</p>
+			<p>Current Position: Solicitor</p>
+			<p>Areas of Law: Family Law, Property Settlements, Mediating Family Disputes, Divorce, Pre-Nuptial Agreements, Custody Issues, Business and Leasing.</p>
+			<p>Professional Qualifications: Solicitor of the Supreme Court of Queensland</p>
+		</div>
+		<div id="singletonInfo">
+			<h4>Melissa Singleton</h4>
+			<p>email: melissa@everinghamlawyers.com.au</p>
+			<p>Current Position: Solicitor</p>
+			<p>Areas of Law: Personal Injuries</p>
+			<p>Professional Qualifications: Solicitor of the Supreme Court of Queensland</p>
+		</div>
+		<div id="daviesInfo">
+			<h4>Michelle Davies</h4>
+			<p>email: michelle@everinghamlawyers.com.au</p>
+			<p>Current Position: Conveyancing Manager</p>
+			<p>Areas of Law: Personal Injuries</p>
+			<p>Professional Qualifications: Conveyancing Purchases and Sales</p>
+		</div>
+
 	</div>
 </div>
-
+<!-- EXTRA INFORMATION -->
 <div class="innerContainer">
 	<div class="quarterContainer">
 		<div class="half">
 			<img class="icon float" src="img/family.svg">
-			<div class="textArea"> <p>means the Original Code and Modifications, in each instance: (a) You must make sure the 	requirements of Sections 1 through 9 of this package to run the original copyright notices and associated disclaimers. 	You may distribute a Compiled Work generated from a Digital Font Program licensed by the acts or omissions of such 	Contributor, if any, to grant the rights granted by Licensor or any Contributor. </p>
+			<div class="textArea"> <p>Everingham Lawyers provides their Personal Injury services on a no win no fee basis.  No win no fees provides a means for people to seek legal recourse who otherwise would not be able to financially.  </p>
+				<p>No Win No Fee means that you will not be charged anything until your matter is won.   There are no upfront fees and we cover your disbursements such as expert medical opinions, doctors, etc until the conclusion of your matter. </p>
 			</div>
 		</div>
 		<div class="half">
 			<img class="icon float" src="img/house.svg">
-			<div class="textArea"> <p>means the Original Code and Modifications, in each instance: (a) You must make sure the 	requirements of Sections 1 through 9 of this package to run the original copyright notices and associated disclaimers. 	You may distribute a Compiled Work generated from a Digital Font Program licensed by the acts or omissions of such 	Contributor, if any, to grant the rights granted by Licensor or any Contributor.</p>
+			<div class="textArea"> <p>Prior to settling your matter we will calculate our account which will include our professional fees and any disbursements.   Disbursements include photocopying, phone calls, faxes, postage, barristers, and other expenses incurred on your behalf. </p>
+				<p>Prior to commencing an action with us you will be given a comprehensive Costs Agreement which outlines all the aspects of your bill and handling of your matter.   You will then have five (5) day cooling off period should you change your mind.</p>
 			</div>
 		</div>
 		<div class="half white">
 			<img class="icon float" src="img/injury.svg">
-			<div class="textArea"> <p>means the Original Code and Modifications, in each instance: (a) You must make sure the 	requirements of Sections 1 through 9 of this package to run the original copyright notices and associated disclaimers. 	You may distribute a Compiled Work generated from a Digital Font Program licensed by the acts or omissions of such 	Contributor, if any, to grant the rights granted by Licensor or any Contributor.</p>
+			<div class="textArea"> <p>If you have been injured in a car accident or at work in Queensland, you may be entitled to compensation.   Whether your accident happened on public property, private property or while on a plane or a boat, whilst in your car, an injury claim can be made when a person has suffered a serious illness or injury and can prove negligence or failure to take reasonable care for a person's safety.  </p>
 			</div>
 		</div>
 		<div class="half">
 			<img class="icon float" src="img/shopping.svg">
-			<div class="textArea"> <p>means the Original Code and Modifications, in each instance: (a) You must make surethe 		requirements of Sections 1 through 9 of this package to run the original copyright notices andassociated disclaimers	. 	You may distribute a Compiled Work generated from a Digital Font Program licensedby the acts or omissions of 	such 	Contributor, if any, to grant the rights granted by Licensor or anyContributor.</p>
+			<div class="textArea"> <p>If you need assistance preparing and lodging your Development Application with the Council, call us on (07) 5495 8888 and we will arrange a confidential discussion. </p>
+				<p>We can assist with commercial disputes whether it be via mediation or litigation.</p>
 			</div>
 		</div>
 	</div>
 </div>
-
+<!-- BOTTOM LINE BEFORE FOOTER -->
 <div class="innerContainer">
 	<div class="quarterContainer">
 		<div class="other">
 			<img class="icon float" src="img/money.svg">
-			<div class="textArea"><p> means the Original Code and Modifications, in each instance: (a) You must make sure the requirements of Sections 1 through 9 of this package to run the original copyright notices and associated disclaimers. You may distribute a Compiled Work generated from a Digital Font Program licensed by the acts or omissions of such Contributor, if any, to grant the rights granted by Licensor or any Contributor. You hereby agree to immediately stop any further use, reproduction, or distribution of the preceding </p></div>
+			<div class="textArea"><p> You may not be aware that your Will does not bind your Super Fund to carry out your wishes.   To do so you need what is called a Binding Death Benefit Nomination.   Depending on the Super Trust Deed these may be lapsing or non-lapsing. </p>
+				<p>Paul and Julia can also assist you with setting up reversionary pensions and completing the Binding Death Benefit Nominations which are required for the effective distribution of your superannuation.  </p>
+				</div>
 		</div>
 	</div>
 </div>
-
-
- <div class="frame darkframe">
-<div class="innerFooter">
+<!-- FOOTER -->
+<div class="frame darkframe">
+	<div class="innerFooter">
  		<div class="half contacts">
  			<div class="callbox"> <h2>07 5495 8888</h2></div>
- 				<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
- 					<div style='overflow:hidden;height:400px;width:100%;'><div id='gmap_canvas' style='height:400px;width:100%;'></div><div><small><a href="http://embedgooglemaps.com">embed google maps</a></small></div><div><small><a href="https:/disclaimergenerator.net">disclaimer example</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(-27.470168,153.023325),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-27.470168,153.023325)});infowindow = new google.maps.InfoWindow({content:'<strong>Everingham Lawyers</strong><br>Level 12, 239 George Street Brisbane QLD 4000<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script></div>
+ 					<div style='overflow:hidden;height:400px;width:100%;'>
+ 						<div id='gmap_canvas' style='height:400px;width:100%;'></div>
+ 					</div>
+ 		</div>
  	
  	<div id="contact" class="half contacts">
  		<form action="contact.php">
@@ -150,11 +248,11 @@
 		<div class="navigation">
 			<nav>
 				<ul class="left">
-					<a href="index.html"><li>HOME</li></a>
-					<a href="index.html"><li>PRACTICE AREAS</li></a>
-					<a href="index.html"><li>WORK WITH US</li></a>
-					<a href="index.html"><li>ABOUT</li></a>
-					<a href="index.html"><li>CONTACT</li></a>
+					<a href="#tagLine">HOME</a>
+					<a href="#areasOfLaw">PRACTICE AREAS</a>
+					<a href="#contact">WORK WITH US</a>
+					<a href="#aboutUs">ABOUT</a>
+					<a href="#contact">CONTACT</a>
 				</ul>
 			</nav>
 		</div>
@@ -164,58 +262,175 @@
 
 <script>
 $(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
+  	$("a").on('click', function(event) {
+    	if (this.hash !== "") {
+      		event.preventDefault();
 
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
+      		var hash = this.hash;
 
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 1500, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
+      		$('html, body').animate({
+        		scrollTop: $(hash).offset().top
+      		}, 1500, function(){
+        		window.location.hash = hash;
+      		});
+    	}
+  	});
 });
 
 function togglescroll() {
-  $('body').on('touchstart', function(e) {
-    if ($('body').hasClass('noscroll')) {
-      e.preventDefault();
-    }
-  });
+	$('body').on('touchstart', function(e) {
+    });
 }
 
 $(document).ready(function() {
-  togglescroll()
-  $(".ham").click(function() {
-    $(".mobilenav").fadeToggle(500);
-    $(".top-menu").toggleClass("top-animate");
-    $("body").toggleClass("noscroll");
-    $(".mid-menu").toggleClass("mid-animate");
-    $(".bottom-menu").toggleClass("bottom-animate");
-  });
+	togglescroll()
+  		$(".ham").click(function() {
+    	$(".mobilenav").fadeToggle(500);
+    	$(".top-menu").toggleClass("top-animate");
+    	$("body").toggleClass("noscroll");
+    	$(".mid-menu").toggleClass("mid-animate");
+    	$(".bottom-menu").toggleClass("bottom-animate");
+  		});
 });
 
 $(document).keydown(function(e) {
-  if (e.keyCode == 27) {
-    $(".mobilenav").fadeOut(500);
-    $(".top-menu").removeClass("top-animate");
-    $("body").removeClass("noscroll");
-    $(".mid-menu").removeClass("mid-animate");
-    $(".bottom-menu").removeClass("bottom-animate");
-  }
+	if (e.keyCode == 27) {
+    	$(".mobilenav").fadeOut(500);
+    	$(".top-menu").removeClass("top-animate");
+    	$("body").removeClass("noscroll");
+    	$(".mid-menu").removeClass("mid-animate");
+    	$(".bottom-menu").removeClass("bottom-animate");
+  	}
 });
+
+$(document).ready(function() {
+
+	$(".familyInfo").click(function(){
+       	$("#family").slideDown( 'slow', function(){ 
+            $(".log").text('Slide Down Transition Complete');
+        });
+    });
+    $(".familyInfo").click(function(){
+       	$("#property, #planning, #commercial").slideUp( 'slow', function(){ 
+        	$(".log").text('Slide Up Transition Complete');
+    	});
+    });		
+});
+
+$(document).ready(function() {
+
+    $(".propertyInfo").click(function(){
+       $("#property").slideDown( 'slow', function(){ 
+        	$(".log").text('Slide Down Transition Complete');
+       	});
+    });
+    $(".propertyInfo").click(function(){
+    	$("#family, #planning, #commercial").slideUp( 'slow', function(){ 
+        	$(".log").text('Slide Up Transition Complete');         
+    	});
+    });		
+});
+
+$(document).ready(function() {
+
+    $(".commercialInfo").click(function(){
+       $("#commercial").slideDown( 'slow', function(){ 
+        	$(".log").text('Slide Down Transition Complete');
+       	});
+    });
+    $(".commercialInfo").click(function(){
+       	$("#property, #planning, #family").slideUp( 'slow', function(){ 
+        	$(".log").text('Slide Up Transition Complete');
+       	});
+    });		
+});
+
+$(document).ready(function() {
+
+    $(".planningInfo").click(function(){
+       $("#planning").slideDown( 'slow', function(){ 
+        	$(".log").text('Slide Down Transition Complete');
+       	});
+    });
+   	$(".planningInfo").click(function(){
+   	   $("#property, #family, #commercial").slideUp( 'slow', function(){ 
+   	      $(".log").text('Slide Up Transition Complete');
+      	});
+   	});		
+});
+	
+function init_map(){
+	var myOptions = {zoom:12,center:new google.maps.LatLng(-27.470168,153.023325),mapTypeId: google.maps.MapTypeId.ROADMAP};
+	map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+	marker = new google.maps.Marker({ map: map,position: new google.maps.LatLng(-27.470168,153.023325)
+});
+	infowindow = new google.maps.InfoWindow({ 
+		content:'<strong>Everingham Lawyers</strong><br>Level 12, 239 George Street Brisbane QLD 4000<br>'
+	});
+	google.maps.event.addListener(marker, 'click', function(){
+		infowindow.open(map,marker);
+	});
+	infowindow.open(map,marker);
+	}
+	google.maps.event.addDomListener(window, 'load', init_map);
+
+
+$(document).ready(function() {
+
+    $(".lewis").click(function(){
+       $("#lewisInfo").slideDown( 'slow', function(){ 
+        	$(".log").text('Slide Down Transition Complete');
+       	});
+    });
+   	$(".lewis").click(function(){
+   	   	$("#wallaceInfo, #singletonInfo, #daviesInfo").slideUp( 'slow', function(){ 
+   	      	$(".log").text('Slide Up Transition Complete');
+   		});
+   	});		
+});
+
+$(document).ready(function() {
+
+    $(".wallace").click(function(){
+       $("#wallaceInfo").slideDown( 'slow', function(){ 
+        	$(".log").text('Slide Down Transition Complete');
+       	});
+    });
+   	$(".wallace").click(function(){
+   	   	$("#lewisInfo, #singletonInfo, #daviesInfo").slideUp( 'slow', function(){ 
+   	      	$(".log").text('Slide Up Transition Complete');
+   		});
+   	});		
+});
+
+$(document).ready(function() {
+
+    $(".singleton").click(function(){
+       $("#singletonInfo").slideDown( 'slow', function(){ 
+        	$(".log").text('Slide Down Transition Complete');
+       	});
+    });
+   	$(".singleton").click(function(){
+   	   	$("#wallaceInfo, #lewisInfo, #daviesInfo").slideUp( 'slow', function(){ 
+   	      	$(".log").text('Slide Up Transition Complete');
+   		});
+   	});		
+});
+
+$(document).ready(function() {
+
+    $(".davies").click(function(){
+       $("#daviesInfo").slideDown( 'slow', function(){ 
+        	$(".log").text('Slide Down Transition Complete');
+       	});
+    });
+    $(".davies").click(function(){
+       	$("#wallaceInfo, #singletonInfo, #lewisInfo").slideUp( 'slow', function(){ 
+          	$(".log").text('Slide Up Transition Complete');
+    	});
+    });		
+});
+
 </script>
 
 

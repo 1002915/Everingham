@@ -204,7 +204,7 @@ button {
 .left a {
 	float:left;
 	margin-right:10px;
-	color:black;
+	color:#bfbfbf;
 }
 
 .buttons {
@@ -434,7 +434,6 @@ button:hover {
   margin: 0px;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.1);
   margin:12px 0px 0px 12px;
 }
 
@@ -468,3 +467,31 @@ button:hover {
 .mobilenav li:first-child {
   margin-top: 60px;
 }
+
+#family, #property, #commercial, #planning, #lewisInfo, #wallaceInfo, #singletonInfo, #daviesInfo {
+	display:none;
+}
+
+#family ul li, #property ul li, #commercial ul li, #planning ul li{
+	color: #001E21;
+	font-size: 1.1em;
+}
+
+#lewisInfo p, #wallaceInfo p, #singletonInfo p, #daviesInfo p{
+	color: #f2f2f2;
+	font-size: 1.1em;
+	box-sizing: border-box;
+}
+
+#lewisInfo h4, #wallaceInfo h4, #singletonInfo h4, #daviesInfo h4{
+	color: #f2f2f2;
+	font-size: 1.2em;
+}
+
+.googleMap {
+	overflow:hidden;
+	height:400px;
+	width:100%;'
+}
+
+

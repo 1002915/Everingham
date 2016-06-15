@@ -97,6 +97,7 @@ a {
   -webkit-text-decoration-skip: objects; /* 2 */
   text-decoration: none;
   list-style:none;
+  color:inherit;
 }
 
 /**
@@ -260,8 +261,8 @@ hr {
 }
 
 p {
-  font-size: 1em;
-  color: #001E21;
+  font-size: 1.1em;
+  color: #000000;
   text-align: justify;
   line-height:1.4em;
 }
